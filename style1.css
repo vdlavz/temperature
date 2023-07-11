@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1472749606/photo/as-the-sun-goes-down-on-the-lake.jpg?b=1&s=170667a&w=0&k=20&c=Ue0fdpwxR0CgkiPQWeMG0RcBiJ-eUQxMSD0NnoHhsbs=");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times new roman', cursive;
+    color: rgb(23, 75, 115);
+
+
+}
+.mark{
+    font-size: 70px;
+    padding-left: -25%;
+
+    color: rgb(0, 140, 255);
+
+}
+.container{
+    background: rgba(107, 206, 185, 0.738);
+    padding: 35px;
+    border-radius: 10px;
+    font-family: 'Nova Oval', cursive;
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-size: 35px;
+}
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 28px;
+}
+input{
+    font-family: 'Calibri', cursive;
+    font-size: 20px;
+    width: 220px;
+    float: right;
+    padding: 5px;
+    outline: none;
+    background: rgba(0,0,0,0.3);
+    border-color: rgba(0,0,0,0.6);
+}
+input::placeholder{
+    color: rgb(105, 46, 136);
+}
